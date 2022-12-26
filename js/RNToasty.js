@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
-import { NativeModules, Platform, ViewPropTypes } from 'react-native'
+import { NativeModules, Platform } from 'react-native'
 import Feather from 'react-native-vector-icons/Feather'
 import RNVectorHelper from './RNVectorHelper'
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 
 const { RNToasty } = NativeModules
 
